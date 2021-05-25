@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Waste Management</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container-fluid">
+			<div class="container">
+				<div class="logo">
+					<img src="images/logo.png" width="120" alt="Logo">
+				</div>
+				<div class="subLogo">
+					<img src="images/logo2.png">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="loginMain">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3 fixedSidebar">
+					<!-- Nav tabs -->
+						<ul class="nav flex-column" id="myTab" role="tablist">
+						  <li class="nav-item">
+						    <a class="nav-link show active" id="wastegenerator-tab" data-toggle="tab" href="#wastegenerator" role="tab" aria-controls="wastegenerator" aria-selected="true">Waste Generator <span class="material-icons material-icons-sharp">chevron_right</span></a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" id="wastereceiver-tab" data-toggle="tab" href="#wastereceiver" role="tab" aria-controls="wastereceiver" aria-selected="false">Waste Receiver <span class="material-icons material-icons-sharp">chevron_right</span></a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" id="admin-tab" data-toggle="tab" href="#admin" role="tab" aria-controls="admin" aria-selected="false">Admin (APEMCL) <span class="material-icons material-icons-sharp">chevron_right</span></a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" id="rologin-tab" data-toggle="tab" href="#rologin" role="tab" aria-controls="rologin" aria-selected="false">RO Login <span class="material-icons material-icons-sharp">chevron_right</span></a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" id="randomcheck-tab" data-toggle="tab" href="#randomcheck" role="tab" aria-controls="randomcheck" aria-selected="false">Random Check <span class="material-icons material-icons-sharp">chevron_right</span></a>
+						  </li>
+						</ul>
+				</div>
+
+				<div class="col-9 tabContent">
+					<!-- Tab panes -->
+						<div class="tab-content">
+						  
+						  <div class="tab-pane fade show active" id="wastegenerator" role="tabpanel" aria-labelledby="wastegenerator-tab">
+						  	<div class="loginSection">
+							  	<h2>Waste Generator Login</h2>
+							  	<form>
+								  <div class="form-group">
+								    <label>Email address</label>
+								    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+								  </div>
+								  <div class="form-group">
+								    <label>Password</label>
+								    <input type="password" class="form-control" id="exampleInputPassword1">
+								  </div>
+								  <button type="submit" class="btn btn-primary">Submit</button>
+								  <a href="#" class="forgotPass">Forgot Password?</a>
+								  <p class="registerLink">Don't have an account? <a href="#">Register Here</a></p>
+								</form>
+							</div>
+						  </div>
+						  
+
+						  <div class="tab-pane fade" id="wastereceiver" role="tabpanel" aria-labelledby="wastereceiver-tab">
+						  	<h2>Waste Receiver Login</h2>
+						  	<form>
+							  <div class="form-group">
+							    <label>Email address</label>
+							    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							  </div>
+							  <div class="form-group">
+							    <label>Password</label>
+							    <input type="password" class="form-control" id="exampleInputPassword1">
+							  </div>
+							  <button type="submit" class="btn btn-primary">Submit</button>
+							  <a href="#" class="forgotPass">Forgot Password?</a>
+							  <p class="registerLink">Don't have an account? <a href="#">Register Here</a></p>
+							</form>
+						  </div>
+						  
+
+						  <div class="tab-pane fade" id="admin" role="tabpanel" aria-labelledby="admin-tab">
+						  	<h2>Admin Login</h2>
+						  	<form>
+							  <div class="form-group">
+							    <label>Email address</label>
+							    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							  </div>
+							  <div class="form-group">
+							    <label>Password</label>
+							    <input type="password" class="form-control" id="exampleInputPassword1">
+							  </div>
+							  <button type="submit" class="btn btn-primary">Submit</button>
+							  <a href="#" class="forgotPass">Forgot Password?</a>
+							  <p class="registerLink">Don't have an account? <a href="#">Register Here</a></p>
+							</form>
+						  </div>
+						  
+
+						  <div class="tab-pane fade" id="rologin" role="tabpanel" aria-labelledby="rologin-tab">
+						  	<h2>RO Login</h2>
+						  	<form>
+							  <div class="form-group">
+							    <label>Email address</label>
+							    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							  </div>
+							  <div class="form-group">
+							    <label>Password</label>
+							    <input type="password" class="form-control" id="exampleInputPassword1">
+							  </div>
+							  <button type="submit" class="btn btn-primary">Submit</button>
+							  <a href="#" class="forgotPass">Forgot Password?</a>
+							  <p class="registerLink">Don't have an account? <a href="#">Register Here</a></p>
+							</form>
+						  </div>
+						  
+
+						  <div class="tab-pane fade" id="randomcheck" role="tabpanel" aria-labelledby="randomcheck-tab">
+						  	<h2>Random Check</h2>
+						  	<form>
+							  <div class="form-group">
+							    <label>Email address</label>
+							    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							  </div>
+							  <div class="form-group">
+							    <label>Password</label>
+							    <input type="password" class="form-control" id="exampleInputPassword1">
+							  </div>
+							  <button type="submit" class="btn btn-primary">Submit</button>
+							  <a href="#" class="forgotPass">Forgot Password?</a>
+							  <p class="registerLink">Don't have an account? <a href="#">Register Here</a></p>
+							</form>
+						  </div>
+
+						</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</section>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
